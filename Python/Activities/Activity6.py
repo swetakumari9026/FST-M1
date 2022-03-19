@@ -1,2 +1,7 @@
-for i in range(10):
-    print(str(i) * str(i))
+def alphapat(n):	
+	for i in range(1, n):
+		for j in range(1, i+1):
+			print(i, end=" ")
+		print("\r")
+n = 5
+alphapat(n)
