@@ -11,5 +11,6 @@ public class Activity4 {
         System.out.println(driver.getTitle());
         driver.findElement(By.id("about-link")).click();
         System.out.println(driver.getTitle());
+        driver.close();
     }
 }
