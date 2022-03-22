@@ -9,7 +9,7 @@ public class Activity4 {
         WebDriver driver = new FirefoxDriver();
         driver.get("https://www.training-support.net");
         System.out.println(driver.getTitle());
-        driver.findElement(By.id("about-link")).click();
+        driver.findElement(By.xpath("//a[@id ='about-link']")).click();
         System.out.println(driver.getTitle());
         driver.close();
     }
