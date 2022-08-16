@@ -24,7 +24,5 @@ public class Activity6_2 {
 
         System.out.println("Message is " + driver.findElement(By.xpath("//div/h3")).getText());
         driver.close();
-
-
     }
 }
